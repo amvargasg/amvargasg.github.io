@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ECS on My New Hugo Site</title>
-    <link>https://Bancolombia-Doc-As-Code.github.io/documentacion/producto-de-captacion/pagos/bill-payment-schedules-v1/ecs/</link>
+    <link>https://amvargasg.github.io/documentacion/producto-de-captacion/pagos/bill-payment-schedules-v1/ecs/</link>
     <description>Recent content in ECS on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 May 2021 10:31:03 -0500</lastBuildDate><atom:link href="https://Bancolombia-Doc-As-Code.github.io/documentacion/producto-de-captacion/pagos/bill-payment-schedules-v1/ecs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 May 2021 10:31:03 -0500</lastBuildDate><atom:link href="https://amvargasg.github.io/documentacion/producto-de-captacion/pagos/bill-payment-schedules-v1/ecs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diseño Detallado</title>
-      <link>https://Bancolombia-Doc-As-Code.github.io/documentacion/producto-de-captacion/pagos/bill-payment-schedules-v1/ecs/dise%C3%B1o/</link>
+      <link>https://amvargasg.github.io/documentacion/producto-de-captacion/pagos/bill-payment-schedules-v1/ecs/dise%C3%B1o/</link>
       <pubDate>Thu, 20 May 2021 10:31:03 -0500</pubDate>
       
-      <guid>https://Bancolombia-Doc-As-Code.github.io/documentacion/producto-de-captacion/pagos/bill-payment-schedules-v1/ecs/dise%C3%B1o/</guid>
+      <guid>https://amvargasg.github.io/documentacion/producto-de-captacion/pagos/bill-payment-schedules-v1/ecs/dise%C3%B1o/</guid>
       <description>Corresponde al diseño del o los componentes de servicio, service component, que realiza el servicio a partir de la implementación de su interfaz.
 Componente de servicio Bill - Payment - Schedules operation delete En el componente del servicio, se implementa la lógica del servicio a través de una API.
 En la siguiente tabla se relaciona el mecanismo de acceso y la interfaz del componente:

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on My New Hugo Site</title>
-    <link>https://Bancolombia-Doc-As-Code.github.io/hugo/</link>
+    <link>https://amvargasg.github.io/hugo/</link>
     <description>Recent content in Hugo on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 May 2021 12:09:35 -0500</lastBuildDate><atom:link href="https://Bancolombia-Doc-As-Code.github.io/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 May 2021 12:09:35 -0500</lastBuildDate><atom:link href="https://amvargasg.github.io/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crear un tema desde cero</title>
-      <link>https://Bancolombia-Doc-As-Code.github.io/hugo/readme_themezero/</link>
+      <link>https://amvargasg.github.io/hugo/readme_themezero/</link>
       <pubDate>Tue, 25 May 2021 12:09:35 -0500</pubDate>
       
-      <guid>https://Bancolombia-Doc-As-Code.github.io/hugo/readme_themezero/</guid>
+      <guid>https://amvargasg.github.io/hugo/readme_themezero/</guid>
       <description>¿Cómo crear un tema ? Para empezar crear un tema se debe usar el comando:
 hugo new theme &amp;lt;Nombre_del_tema&amp;gt;
 Este comando creará una carpeta con el nombre deseado en la carpeta themes con los siquientes directorios
@@ -22,10 +22,10 @@ Archetypes El primero archetypes, corresponde a una carpeta donde se alojarán p
     
     <item>
       <title>¿Cómo añadir un tema y configurarlo?</title>
-      <link>https://Bancolombia-Doc-As-Code.github.io/hugo/readme_copytheme/</link>
+      <link>https://amvargasg.github.io/hugo/readme_copytheme/</link>
       <pubDate>Tue, 25 May 2021 12:09:35 -0500</pubDate>
       
-      <guid>https://Bancolombia-Doc-As-Code.github.io/hugo/readme_copytheme/</guid>
+      <guid>https://amvargasg.github.io/hugo/readme_copytheme/</guid>
       <description>En primer lugar se debe instalar Hugo, donde se debe tener en cuenta que hay que tener la versión &amp;ldquo;extendida&amp;rdquo; Sass/SCSS de Hugo con el siguiente comando:
  choco install hugo-extended -confirmSi no tiene Windows, puede revisar la página oficial de Hugo para las respectivas instalaciones: (Instalar Hugo)
 Ahora si, volviendo a los temas:
