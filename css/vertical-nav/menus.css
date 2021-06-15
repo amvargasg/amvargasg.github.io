@@ -1,0 +1,150 @@
+/* Navegación del menu */
+/*sección de navegación 0 por la página */
+.site-header0{
+  margin-bottom: 1rem;
+}
+
+.site-nav0{
+  display:flex;
+  justify-content:baseline;
+  background-color: rgb(40, 40, 40);
+  list-style: none;
+  
+}
+.site-nav0 .mainMenu0 {
+  
+  list-style: none;
+  font-weight: bold;
+  text-align: left;
+
+  color:white;
+  font-family:inherit;
+  /*
+  border-color: white;
+  border-width: 0.1rem;
+  border-right-style: solid;
+  */
+
+}
+
+.site-nav0 li a{
+  
+  text-decoration:none;
+  display: inline-flex;
+  width: 100%;
+  color: inherit;
+}
+
+.site-nav0 ul {
+   list-style: none;
+   background-color: inherit;
+   padding: 0 2rem 0 2rem; 
+}
+
+.site-nav0 .mainMenu0:hover{
+  
+  font-weight: bold;
+  background-color: whitesmoke;
+  color:black;
+              
+}
+
+.site-nav0 li a:hover{
+  color:#000;
+}
+
+/*sección de navegación 1 por la página */
+
+.site-nav1  {
+  
+  color: rgb(44, 44, 44);
+  font-size: 100%;
+  font-weight: normal;
+  text-align: left;
+  font-family:inherit;
+  position: relative;
+  
+}
+
+.menu-vert {
+  list-style-type:none;
+  position:relative;
+  left: -1rem;
+  
+}
+
+.menu-vert a{
+  text-decoration:none;
+  color: inherit;
+  /*
+  display: inline-flex;
+  display:inline-flex;
+  padding:0.2rem 1rem;
+  width:7rem;
+  height:1.8rem;
+  color:inherit;
+  position: relative;
+  */ 
+}
+          
+.menu-vert a:hover{
+  color:#000;
+  font-weight: bold;
+  background-color: rgb(247, 247, 247);
+  border-color: yellow;
+  border-width: 0.1rem;
+  border-bottom-style: solid;               
+}
+
+.menu-vert ul{
+
+  list-style-type: none;
+  display:none;
+  position: relative;
+  left: -2rem;
+  /*
+  position:flex;
+  background-color: white;
+  margin: 0;
+  padding: auto;
+  list-style: none;
+  overflow: hidden;
+  transition: .3s all ease-in;
+  */
+}
+
+.menu-vert ul ul {
+  list-style-type: none;
+  display:none;
+  position: relative;
+  left: -2rem;
+}
+
+.submenu-vert {
+  position: relative;
+}
+
+.submenu-vert-level {
+  position: relative;
+}
+
+.submenu-vert a {
+  
+  padding: 0.5rem;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration:none;
+  display: inline-flex;
+  width: 7rem;
+  height: 2rem;
+  color: inherit;
+ 
+}
+
+.menu-vert:hover ul{
+  display: block;
+  /*transition: .3s all ease-in;*/
+}
+
+
+

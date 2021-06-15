@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html>
+
+<head class="site-head">
+		
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    
+    
+    
+    <link rel="stylesheet" href="https://Bancolombia-Doc-As-Code.github.io/css/vertical-nav/layouts.css"><link rel="stylesheet" href="https://Bancolombia-Doc-As-Code.github.io/css/vertical-nav/menus.css"><link rel="stylesheet" href="https://Bancolombia-Doc-As-Code.github.io/css/vertical-nav/lists.css"><link rel="stylesheet" href="https://Bancolombia-Doc-As-Code.github.io/css/vertical-nav/shortcodes.css">
+
+        <a style="text-decoration:none" href="https://www.grupobancolombia.com/personas">
+            <div class="head__content">
+            
+                <div class="imagen-head">
+                    <img src="https://Bancolombia-Doc-As-Code.github.io/images/Logo_Cut.png" alt="Logo" width="60%x">
+                </div>
+            
+                <div>
+                    <h1 class="titulo-principal"> Grupo Bancolombia </h1>
+                </div>
+            
+            </div>
+        </a>
+        
+
+
+</head>
+
+<body>
+    <section><header class="site-header0">
+    <nav class="site-nav0">
+        
+
+        
+        
+
+        
+        <section class="mainMenu0">
+            <ul>
+                <li>
+                    
+                    <a style="text-decoration: none;" class="nav-link0" href="../../">
+                        
+                        
+                        Principal
+                    </a>
+                </li>
+            </ul>
+        </section>
+        
+
+        
+        <section class="mainMenu0">
+            <ul>
+                <li>
+                    
+                    <a style="text-decoration: none;" class="nav-link0" href="../../documentacion">
+                        
+                        
+                        Documentación
+                    </a>
+                </li>
+            </ul>
+        </section>
+        
+
+        
+        <section class="mainMenu0">
+            <ul>
+                <li>
+                    
+                    <a style="text-decoration: none;" class="nav-link0" href="../../extra">
+                        
+                        
+                        Extra
+                    </a>
+                </li>
+            </ul>
+        </section>
+        
+
+        
+        <section class="mainMenu0">
+            <ul>
+                <li>
+                    
+                    <a style="text-decoration: none;" class="nav-link0" href="../../hugo">
+                        
+                        
+                        Hugo
+                    </a>
+                </li>
+            </ul>
+        </section>
+        
+    </nav>
+</header>
+
+</section>
+
+    <div class="cotenido-principal">
+        <main class="content">
+            <h1>¿Cómo añadir un tema y configurarlo?</h1>
+            <p>En primer lugar se debe instalar Hugo, donde se debe tener en cuenta que hay que tener la versión &ldquo;extendida&rdquo; Sass/SCSS de Hugo con el siguiente comando:</p>
+<pre><code>    choco install hugo-extended -confirm
+</code></pre><p>Si no tiene Windows, puede revisar la página oficial de Hugo para las respectivas instalaciones:
+<strong><a href="https://gohugo.io/getting-started/installing/">(Instalar Hugo)</a></strong></p>
+<p>Ahora si, volviendo a los temas:</p>
+<p>Estos permiten crear un sitio web con un aspecto atractivo y de manera más sencilla. El sitio web de Hugo cuenta con una sección completamente dedicada a temas, con muchas alternativas interesantes y adaptables a todo tipo de proyecto. <strong><a href="https://themes.gohugo.io/">Ingresar temas Hugo!!!</a></strong></p>
+<p>El presente repositorio cuenta con un tema, el cuál es una plantilla base para Bancolombia que puede usar en su archivo raiz. Esta plantilla se encuentra dentro de la carpeta llamada <code>vertical_nav</code> cuya ruta es <code>themes/vertical_nav</code></p>
+<p>Para agregar un tema hay dos métodos:</p>
+<ol>
+<li>
+<p>Descargar el tema en un zip</p>
+<p>Ya elegido el tema, se descarga en un achivo zip, luego se descomprime y coloca la carpeta con todo el contenido del tema en una subcarpeta del proyecto raíz llamada &ldquo;themes/&rdquo;.</p>
+</li>
+<li>
+<p>Línea de comandos</p>
+</li>
+</ol>
+<p>Con Git se puede agregar el tema más rápido y consiguiendo un flujo de trabajo más mantenible de cara a las actualizaciones del tema.</p>
+<ul>
+<li>
+<p>Método submodule</p>
+<p>Estando en la carpeta raíz del proyecto, se ejecuta lo siguiente:</p>
+<pre><code>    git submodule add &lt;ssh/https url github&gt; themes/&lt;nombre nuevo tema&gt; 
+</code></pre><p>Este método no se recomienda ya que copia la subcarpeta al repositorio vacía, copiando solo al archivo localmente.</p>
+</li>
+<li>
+<p>Método clone</p>
+<p>Estando en la carpeta raíz del proyecto, se ejecuta lo siguiente:</p>
+<pre><code>    git clone --depth 1  &lt;ssh/https url github&gt; themes/&lt;nombre nuevo tema&gt;
+</code></pre><p>Luego borrar el directorio .git</p>
+<pre><code>    rm -Recurse -Force themes/&lt;nombre nuevo tema&gt;/.git
+</code></pre></li>
+</ul>
+<p>Ya agregado el tema, en el proyecto raiz se debe hacer una configuración para especificar el uso del tema. Esto se realiza dentro del archivo <code>config.toml</code> y se debe agregar las siguientes lineas de código:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    ---
+    baseURL <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&lt;URL deseada&gt;&#34;</span>
+    languageCode <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;en-us&#34;</span>  <span style="color:#75715e">#idioma</span>
+    title <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&lt;Titulo&gt;&#34;</span>
+    theme <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&lt;Nombre asignado al tema clonado&gt;&#34;</span>
+    ---
+</code></pre></div><p>Para crear un nuevo Post se debe ejecutar el siguiente comando en el directorio raíz:</p>
+<pre><code>    hugo new content/&lt;nombre&gt;.md 
+</code></pre><p>Observará un nuevo archivo markdown con el nombre que se asignó donde se deben agregar las siguientes lineas en la parte superior e inferior del código, en el caso de no contenerlas:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">    ---
+    title: <span style="color:#e6db74">&#34;&lt;Nombre deseado&gt;&#34;</span>
+    date: 2021-04-22T00:22:40-05:00  <span style="color:#75715e">#Actualizar fecha</span>
+    draft: false
+    ---
+</code></pre></div><p>Teniendo en cuenta que si el draft esta en &ldquo;false&rdquo; la página se va a actualizar automaticamente sin la necesidad de ejecutar códigos de hugo para construir la página.</p>
+<p>Ya para ejecutar la página y poder visualizarla junto con el tema seleccionado, se ejecuta el siguiente comando:</p>
+<pre><code>        hugo server -D
+</code></pre><p>Para configuraciones adicionales consultar la página de <strong><a href="https://gohugo.io/">Hugo</a></strong></p>
+<p>Referencias:</p>
+<blockquote>
+<p><strong><a href="https://tygerbytes.github.io/wp2hugoref/#06-write-a-new-post-with-hugo">Migrating WordPress to Hugo: Course Reference</a></strong></p>
+</blockquote>
+<blockquote>
+<p><strong><a href="https://desarrolloweb.com/articulos/primeros-pasos-hugo">Primeros pasos con Hugo</a></strong></p>
+</blockquote>
+
+            
+            
+        </main>
+    </div>
+    
+</body>
+
+
+<footer class="footer">
+    <div class="footer__content">
+
+        <div class="footer_izquierda">
+
+            <img src="https://Bancolombia-Doc-As-Code.github.io/images/LogoWhite_T.PNG" alt="Logo" width="50%x">
+
+        </div>
+
+        <div class="footer_derecha">
+            <section>
+                <h1>Contáctanos</h1>
+                Carrera 48#26-85 Medellín-Colombia</br>
+                soportes@bancolombia.com.com</br>
+                Bogotá (57 1)343 00 00</br>
+                Medellín (57 4)510 90 00</br>
+                Cali (57 2)254 05 05</br>
+                Cartagena (57 7)697 25 25</br>
+            
+                &copy;2021 My New Hugo Site
+            </section>				
+        </div>
+    </div>						
+</footer>
+
+
+</html>

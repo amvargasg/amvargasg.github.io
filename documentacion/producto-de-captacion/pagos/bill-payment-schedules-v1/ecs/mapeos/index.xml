@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mapeo de Datos on My New Hugo Site</title>
+    <link>https://Bancolombia-Doc-As-Code.github.io/documentacion/producto-de-captacion/pagos/bill-payment-schedules-v1/ecs/mapeos/</link>
+    <description>Recent content in Mapeo de Datos on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 May 2021 10:31:03 -0500</lastBuildDate><atom:link href="https://Bancolombia-Doc-As-Code.github.io/documentacion/producto-de-captacion/pagos/bill-payment-schedules-v1/ecs/mapeos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>deleteSchedules</title>
+      <link>https://Bancolombia-Doc-As-Code.github.io/documentacion/producto-de-captacion/pagos/bill-payment-schedules-v1/ecs/mapeos/delete-schedules/</link>
+      <pubDate>Thu, 20 May 2021 10:31:03 -0500</pubDate>
+      
+      <guid>https://Bancolombia-Doc-As-Code.github.io/documentacion/producto-de-captacion/pagos/bill-payment-schedules-v1/ecs/mapeos/delete-schedules/</guid>
+      <description>Descargar deleteSchedules.json Contenido del archivo{&amp;#34;metadata&amp;#34;: {&amp;#34;messages&amp;#34;: {&amp;#34;API&amp;#34;: {&amp;#34;format&amp;#34;: &amp;#34;application/vnd.bancolombia.v4&amp;#43;json&amp;#34;},&amp;#34;INT&amp;#34;: {&amp;#34;format&amp;#34;: &amp;#34;SOAP&amp;#34;}},&amp;#34;mapping&amp;#34;: {&amp;#34;request&amp;#34;: {&amp;#34;from&amp;#34;: &amp;#34;API&amp;#34;,&amp;#34;to&amp;#34;: &amp;#34;INT&amp;#34;},&amp;#34;response&amp;#34;: {&amp;#34;from&amp;#34;: &amp;#34;INT&amp;#34;,&amp;#34;to&amp;#34;: &amp;#34;API&amp;#34;},&amp;#34;businessException&amp;#34;: {&amp;#34;from&amp;#34;: &amp;#34;INT&amp;#34;,&amp;#34;to&amp;#34;: &amp;#34;API&amp;#34;},&amp;#34;systemException&amp;#34;: {&amp;#34;to&amp;#34;: &amp;#34;API&amp;#34;}}},&amp;#34;request&amp;#34;: {&amp;#34;Header&amp;#34;: {&amp;#34;requestHeader&amp;#34;: {&amp;#34;systemId&amp;#34;: {&amp;#34;from&amp;#34;: &amp;#34;&amp;#34;,&amp;#34;to&amp;#34;: &amp;#34;Header/requestHeader/systemId&amp;#34;,&amp;#34;rule&amp;#34;: &amp;#34;default value&amp;#34;,&amp;#34;description&amp;#34;: &amp;#34;Se debe tomar el valor del nombre del aplicacion de la variable de contexto &amp;#39;client.</description>
+    </item>
+    
+  </channel>
+</rss>
