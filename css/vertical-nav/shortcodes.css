@@ -1,44 +1,41 @@
-
 /*shortcode diagrama_dominios*/
 div .mermaid {
     margin: 0;
     padding: 0;
 }
 
-/*shortcode archivos dataFiles*/
-.shortcodeJSON {
-    position: relative;
-    background-color: rgb(240, 240, 240);
-    height: 400px;
-    width: 1000px;
-    overflow: scroll;
+/*shortcode referenciarDoc*/
+.shortcode__referenciarDoc {
+    margin: 0;
+    padding: 0;
+    color: rgb(29, 22, 95);
+    font-weight: bold;
     
 }
 
-.shortcodeJSON:hover {
-    background-color: rgb(230,230,230);
-}
-
-.shortcodeJSON .shortcodeJSON_file {
-    padding: 0 2rem;
+.shortcode__referenciarDoc a {
+    text-transform: capitalize;
 }
 
 /*shortcode archivos dataDetails*/
-.shortcodeDetails {
+.shortcode__Details {
     position: relative;
-    background-color: white;
-    color: rgb(44,44,44);
-    
+    color: rgb(44,44,44);    
 }
 
 .shortcode_ClassDetails[open] {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(177, 213, 255);
     max-height: 400px;
-    max-width: 1000px;
+    max-width: 900px;
+    border-color:none;
     overflow: scroll;
 }
 
-.shortcodeDetails:hover {
+.shortcode_ClassDetails summary {
+    text-transform: capitalize;
+}
+
+.shortcode__Details:hover {
     color:#000;
     font-weight: bold;
     border-color: yellow;
@@ -46,33 +43,35 @@ div .mermaid {
     border-bottom-style: solid; 
 }
 
-.shortcodeDetails_file {
+.shortcode__Details a div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shortcode__Details .shortcodeDetails_file {
     padding: 0 2rem;
 }
 
-/*Shortcode descargar archivos*/
-.shortcodeDownload {
-    display: flex;
-}
-
-.shortcodeDownload .icon {
-    padding: 0 0 0 2rem;
-    height: 5%;
-    width: 5%;
-    order: 1;
-
-}
-
-.shortcodeDownload .icon img{
-    padding: 0;
-    height: 100%;
-    width: 100%;
-
-}
-
-.shortcodeDownload .text_icon{
-    padding: 0 1rem;
+.shortcode__Details a div .text_icon {
+    padding: auto;    
     height: 20%;
     color: rgb(40,40,40);
     order: 2;
+}
+
+.shortcode__Details a div .text_icon h3 {
+    text-transform: capitalize;    
+}
+
+.shortcode__Details a div .icon {
+    padding: 1rem 1rem;
+    height: 5%;
+    width: 5%;
+    order: 1;
+}
+
+.shortcode__Details a div .icon img{
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
