@@ -27,7 +27,7 @@ Archetypes El primero archetypes, corresponde a una carpeta donde se alojarán p
       
       <guid>https://amvargasg.github.io/hugo/readme_copytheme/</guid>
       <description>En primer lugar se debe instalar Hugo, donde se debe tener en cuenta que hay que tener la versión &amp;ldquo;extendida&amp;rdquo; Sass/SCSS de Hugo con el siguiente comando:
- choco install hugo-extended -confirmSi no tiene Windows, puede revisar la página oficial de Hugo para las respectivas instalaciones: instalar hugo
+ choco install hugo-extended -confirmSi no tiene Windows, puede revisar la página oficial de Hugo para las respectivas instalaciones: Instalar hugo
 Ahora si, volviendo a los temas:
 Estos permiten crear un sitio web con un aspecto atractivo y de manera más sencilla. El sitio web de Hugo cuenta con una sección completamente dedicada a temas, con muchas alternativas interesantes y adaptables a todo tipo de proyecto.</description>
     </item>
