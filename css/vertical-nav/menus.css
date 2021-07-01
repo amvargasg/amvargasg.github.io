@@ -120,5 +120,5 @@
 
 .menu-vert:hover ul, .menu-vert:target ul{
   display: block;
-  /*transition: .3s all ease-in;*/
+  
 }
